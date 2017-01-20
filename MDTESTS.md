@@ -1,7 +1,7 @@
 # Release Your Feature
 ##      Static Code Tests
 *   Execute static code checks (Voters)
-*   Execute security scan ([Cx](https://www.checkmarx.com/))
+
 ##      Build & Test local artifact
 1. Build a npm artifact from the locat code
 2. Deploy the content to a dedicated account
