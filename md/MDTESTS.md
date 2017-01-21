@@ -12,4 +12,3 @@ Those steps will only be triggered if the previus ones passed sucssesfully
 2. Submit the changed to the [final-assembly](https://github.wdf.sap.corp/final-assembly) repository
 3. Trigger [xMake](https://xmake-dev.wdf.sap.corp:8443/) job that will create an artifact and will upload it to the [internal npm](https://nexus.wdf.sap.corp:8443/nexus/content/groups/build.releases.npm/#browse/welcome)
 4. Deploy the recently created/uploaded artifact to all landscapes
-
