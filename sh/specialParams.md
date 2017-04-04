@@ -3,4 +3,8 @@
 *  Switch list of strings to an array
     * STR_LIST "STR0 STR1 STR2"
     * str_arr=(STR_LIST)
-*
+*  Contron exit code
+    * Will allways return 0
+      bash -c "git XXX; exit 0; "
+    * Will return 11 in case of a failure 
+      ./my_script.sh || exit 11
