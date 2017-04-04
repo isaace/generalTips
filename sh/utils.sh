@@ -17,7 +17,7 @@ print_and_exec(){
 	fi
 }
 
-#This function makes sure that all the variables at ${MANDATORY_PARAMETERS} is defined
+#This function makes sure that all the variables at ${MANDATORY_PARAMETERS} are defined
 #Usage:
 #	1. set list of params as strings to ${MANDATORY_PARAMETERS} (i.e. MANDATORY_PARAMETERS="var1 var2")
 #	2. invoke verify_params
@@ -51,3 +51,7 @@ print_vars_value() {
 
 	done
 }
+
+#Several ways to execute a command and control the return value
+bash -c "git XXX; exit 0; " # Will allways return 0
+./my_script.sh || exit 11 #will return 11 in case of a failure 
