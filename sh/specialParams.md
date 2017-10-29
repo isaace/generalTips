@@ -11,3 +11,5 @@
 * remove prefix/sufix  
    * tmp=${a#*_}   # remove prefix ending in "_"
    * b=${tmp%_*}   # remove suffix starting with "_"
+* important paths
+   * crontab -e -> will create a file at /var/spool/cron/XXX
