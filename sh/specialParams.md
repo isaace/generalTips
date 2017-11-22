@@ -13,3 +13,4 @@
    * b=${tmp%_*}   # remove suffix starting with "_"
 * important paths
    * crontab -e -> will create a file at /var/spool/cron/XXX
+   * lock files /var/lock/subsys/
