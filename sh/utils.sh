@@ -7,6 +7,8 @@ HCP_LANDSCAPES_ARR[ind2]="sat20"
 HCP_LANDSCAPES_ARR[ind3]="sat0"
 HCP_LANDSCAPES_ARR[ind4]="sat40"
 
+#This is a comment
+
 Useful functions
 #################
 print_and_exec(){
